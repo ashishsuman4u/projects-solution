@@ -6,17 +6,17 @@ To Setup this project, we will first need to install aws-cdk globally on our loc
 
 # Environment variable
 
-FRONTEND_BASEURL - example 'http://localhost:3000'
-CDK_DEFAULT_REGION- example 'us-east-1'
-CDK_DEFAULT_ACCOUNT- AWS Account ID
-CDK_DEFAULT_VPC_ID - AWS VPC ID
-DB_NAME- example "projects"
-DYNAMODB_TABLE_NAME- example "connections"
-DB_USERNAME- example "postgres"
-DB_PASSWORD="vy.QjZJdC9Epf4" //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
-RDS_ENDPOINT- example "projectrdsstack-projectrdsstackrds9e53bd9a-oxmy3rtilyso.cmvuku8gqciw.us-east-1.rds.amazonaws.com" //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
-USER_POOL_ID - Cognito user pool arn to be used for cognito authorizer. //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
-SOCKET_API_URL- "https://{api-id}.execute-api.{region}.amazonaws.com/{stage}" //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
+- FRONTEND_BASEURL - example 'http://localhost:3000'
+- CDK_DEFAULT_REGION- example 'us-east-1'
+- CDK_DEFAULT_ACCOUNT- AWS Account ID
+- CDK_DEFAULT_VPC_ID - AWS VPC ID
+- DB_NAME- example "projects"
+- DYNAMODB_TABLE_NAME- example "connections"
+- DB_USERNAME- example "postgres"
+- DB_PASSWORD="vy.QjZJdC9Epf4" //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
+- RDS_ENDPOINT- example "projectrdsstack-projectrdsstackrds9e53bd9a-oxmy3rtilyso.cmvuku8gqciw.us-east-1.rds.amazonaws.com" //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
+- USER_POOL_ID - Cognito user pool arn to be used for cognito authorizer. //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
+- SOCKET_API_URL- "https://{api-id}.execute-api.{region}.amazonaws.com/{stage}" //TO BE REPLACED MANUALLY FOR NOW. WE CAN USE SSM FOR THE SAME
 
 ## Useful commands
 
